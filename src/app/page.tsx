@@ -104,7 +104,7 @@
 
 import { revalidatePath } from "next/cache";
 
-let items: string[] = [];
+const items: string[] = [];
 
 async function addItem(formData: FormData) {
   "use server";
